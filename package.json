@@ -24,6 +24,10 @@
   "license": "MIT",
   "homepage": "https://github.com/susuyan/susuyan.github.io#readme",
   "dependencies": {
-    "ejs": "^3.0.1"
+    "ejs": "^3.0.1",
+    "tracer": "^1.0.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0"
   }
 }
