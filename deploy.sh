@@ -15,9 +15,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f "https://godbmw:$CODING_TOKEN@git.dev.tencent.com/godbmw/godbmw.coding.me.git" master:master
-
-git push -f "https://godbmw:$GITHUB_TOKEN@github.com/dongyuanxin/blog.git" master:gh-pages
+git push -f git@github.com:<susuyan>/<susuyan>.github.io.git master
 
 cd -
 
