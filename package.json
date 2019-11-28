@@ -22,5 +22,8 @@
   "keywords": [],
   "author": "苏苏炎",
   "license": "MIT",
-  "homepage": "https://github.com/susuyan/susuyan.github.io#readme"
+  "homepage": "https://github.com/susuyan/susuyan.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.0.1"
+  }
 }
