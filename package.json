@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "--- home: true comment: false single: true heroImage: \"./edit-tools.png\" tagline: 专注 iOS 和 Swift footer: MIT Licensed | Copyright © 2019 苏苏炎 ---",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
