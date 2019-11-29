@@ -21,7 +21,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<susuyan>/<susuyan>.github.io.git master:gh-pages
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:<susuyan>/<blog>.git master:gh-pages
+git push -f "https://susuyan:$GITHUB_TOKEN@github.com/susuyan/blog.git" master:gh-pages
 
 cd -
 
