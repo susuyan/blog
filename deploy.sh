@@ -3,9 +3,9 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-if [[ -z "$GITHUB_TOKEN" ]]; then
-  exit 0
-fi
+# if [[ -z "$GITHUB_TOKEN" ]]; then
+#   exit 0
+# fi
 
 # 生成静态文件
 npm run docs:build
