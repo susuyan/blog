@@ -20,3 +20,6 @@ notes/
 
 # 前端知识体系
 前端知识体系/js/index.js
+
+# 其它
+.DS_Store
