@@ -19,7 +19,7 @@
   "keywords": [],
   "author": "苏苏炎",
   "license": "MIT",
-  "homepage": "https://github.com/susuyan/blog#readme",
+  "homepage": "https://github.com/susuyan/blog",
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
     "@vuepress/plugin-google-analytics": "^1.2.0",
