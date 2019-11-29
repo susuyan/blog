@@ -25,6 +25,7 @@
   "homepage": "https://github.com/susuyan/susuyan.github.io#readme",
   "dependencies": {
     "ejs": "^3.0.1",
+    "ora": "^4.0.3",
     "tracer": "^1.0.1"
   },
   "devDependencies": {
