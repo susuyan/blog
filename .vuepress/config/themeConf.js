@@ -3,8 +3,7 @@ const sidebar = require("./sidebar-auto.js");
 module.exports = {
   repo: "susuyan/blog",
   navbar: true,
-  editLinks: true,
-  editLinkText: "在 GitHub 上编辑此页",
+  editLinks: false,
   lastUpdated: "更新于",
   sidebar,
   nav: [
