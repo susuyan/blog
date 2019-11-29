@@ -1,7 +1,7 @@
 const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
-  repo: "dongyuanxin/blog",
+  repo: "susuyan/blog",
   navbar: true,
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
