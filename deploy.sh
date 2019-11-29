@@ -3,7 +3,7 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-if [[ -z "$CODING_TOKEN"  || -z "$GITHUB_TOKEN" ]]; then
+if [[ -z "$GITHUB_TOKEN" ]]; then
   exit 0
 fi
 
@@ -27,3 +27,5 @@ git commit -m 'deploy'
 git push -f git@github.com:<susuyan>/<blog>.git master:gh-pages
 
 cd -
+
+rm -rf .vuepress/dist
