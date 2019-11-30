@@ -20,7 +20,7 @@
   "author": "苏苏炎",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dongyuanxin/blog/issues"
+    "url": "https://github.com/susuyan/blog/issues"
   },
   "homepage": "https://github.com/dongyuanxin/blog#readme",
   "dependencies": {
@@ -40,6 +40,6 @@
     "vuepress-plugin-viewer": "^1.0.0"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0"
+
   }
 }
