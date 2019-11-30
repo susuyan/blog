@@ -31,11 +31,11 @@ const {
         {
           choosen: 'gitalk', 
           options: {
-            clientID: '6558fdf298fa596c5d8c',
-            clientSecret: process.env.clientSecret || '',
+            clientID: '7160032e9a31eb9e2259',
+            clientSecret: process.env.clientSecret || 'eb34433cb92d133b0c912e4c9d1dfed7c82bc47f',
             repo: 'blog',
-            owner: 'dongyuanxin',
-            admin: ['dongyuanxin'],
+            owner: 'susuyan',
+            admin: ['susuyan'],
             id: '<%- frontmatter.commentid || frontmatter.permalink %>',      // Ensure uniqueness and length less than 50
             distractionFreeMode: false,  // Facebook-like distraction free mode
             labels: ['Gitalk', 'Comment'],
