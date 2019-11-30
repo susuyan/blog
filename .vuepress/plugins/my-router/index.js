@@ -14,12 +14,5 @@ module.exports = {
       return;
     }
 
-    if (/^\/?notes\//.test(regularPath)) {
-      frontmatter.comment = false;
-    } else {
-      frontmatter.comment = true;
-      frontmatter.commentid = frontmatter.permalink;
-    }
-    frontmatter.permalink = `${routePfx}${frontmatter.permalink}`;
   }
 };
