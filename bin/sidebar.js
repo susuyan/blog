@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const logger = require("tracer").colorConsole();
 
 const docsRoot = path.join(__dirname, "..", "docs");
-const notesRoot = path.join(__dirname, "..", "notes");
+// const notesRoot = path.join(__dirname, "..", "notes");
 const sidebarPath = path.join(
   __dirname,
   "..",
