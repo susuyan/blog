@@ -14,7 +14,7 @@ const {
       require('vuepress-plugin-viewer'),
       '@vuepress/back-to-top',
       [ 
-        '@vuepress/google-analytics', { 'ga': 'UA-124601890-1' }
+        '@vuepress/google-analytics', { 'ga': 'UA-63856296-2' }
       ],
       [
         '@vuepress/pwa',
