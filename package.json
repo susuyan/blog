@@ -19,6 +19,9 @@
   "keywords": [],
   "author": "苏苏炎",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dongyuanxin/blog/issues"
+  },
   "homepage": "https://github.com/dongyuanxin/blog#readme",
   "dependencies": {
     "@vuepress/plugin-back-to-top": "^1.2.0",
