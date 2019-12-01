@@ -7,7 +7,7 @@ const {
   module.exports = {
     locales: localesConf,
     base: "/blog/",
-    repo: "susuyan/blog"
+    repo: "susuyan/blog/"
     
     // markdown: mdConf,
     // themeConfig: themeConf,
