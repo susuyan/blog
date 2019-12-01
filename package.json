@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "集博客之精华而生的目录，已有前端知识体系梳理、设计模式手册、Webpack4教程，欢迎食用",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "docs:dev": "vuepress dev docs",

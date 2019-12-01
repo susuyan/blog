@@ -8,11 +8,10 @@ const {
     title: '个人主页', 
     description: '苏苏炎的博客',
     locales: localesConf,
-    base: "/blog/"
-
+    base: "/blog/",
+    themeConfig: themeConf,
     
     // markdown: mdConf,
-    // themeConfig: themeConf,
     // plugins: [
     //   require('./plugins/my-router'),
     //   require('./plugins/my-loader'),
