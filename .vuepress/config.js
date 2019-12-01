@@ -1,31 +1,13 @@
-  const {
-    mdConf,
-    themeConf,
-    localesConf,
-  } = require('./config')
-  
+
+  const themeConf = require('./config/themeConf')
+  const mdConf = require('./config/markdown')
+
   module.exports = {
     title: '苏苏炎', 
     description: '坚持记录。 没有丰富的储备，你就无法去创造，你就不可能无中生有，你脑子里有东西，才可能去创造。',
-    locales: localesConf,
     base: "/blog/",
-    themeConfig: {
-      nav: [
-        {
-          text: 'Languages',
-          items: [
-            { text: 'Chinese', link: '/language/chinese/' },
-            { text: 'Japanese', link: '/language/japanese/' }
-          ]
-        },
-        {
-          text: 'Swift',
-          link: ''
-        }
-
-      ]
-    },    
-    markdown: mdConf,
+    themeConfig: themeConf,
+    markdown: mdConf,    
     plugins: [
       require('./plugins/my-router'),
       require('./plugins/my-loader'),
