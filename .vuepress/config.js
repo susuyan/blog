@@ -8,8 +8,8 @@ const {
     title: '个人主页', 
     description: '苏苏炎的博客',
     locales: localesConf,
-    base: "/blog/",
-    repo: "susuyan/blog/"
+    base: "/blog/"
+
     
     // markdown: mdConf,
     // themeConfig: themeConf,
