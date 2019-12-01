@@ -15,12 +15,3 @@ footer: MIT Licensed | Copyright © 2019 苏苏炎
 - **Email**: yuanxin.me@gmail.com
 - **QQ**: 2181111110
 
-<style scoped>
-main ul {
-  line-height: 2.5;
-}
-
-.show-in-github {
-  display: none;
-}
-</style>
