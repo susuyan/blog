@@ -9,9 +9,8 @@ const {
     description: '苏苏炎的博客',
     locales: localesConf,
     base: "/blog/",
-    themeConfig: themeConf,
-    
-    // markdown: mdConf,
+    themeConfig: themeConf,    
+    markdown: mdConf,
     // plugins: [
     //   require('./plugins/my-router'),
     //   require('./plugins/my-loader'),
