@@ -11,7 +11,6 @@ module.exports = {
       {
         text: 'Swift',
         link: ''
-
       },
       { 
         text: 'hello',

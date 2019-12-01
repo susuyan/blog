@@ -10,7 +10,8 @@
     "lint": "node bin/prettier.js -t docs -l",
     "start": "npm run dev",
     "dev": "nodemon --watch docs bin/sidebar.js & ./node_modules/.bin/vuepress dev .",
-    "build": "vuepress build ."
+    "build": "vuepress build .",
+
   },
   "repository": {
     "type": "git",
@@ -41,5 +42,10 @@
     "vuepress-plugin-viewer": "^1.0.0",
     "vuepress-sidebar-generator": "^0.1.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "bluebird": "^3.7.2",
+    "hexo-fs": "^2.0.0",
+    "moment": "^2.24.0",
+    "silly-datetime": "^0.1.2"
+  }
 }
