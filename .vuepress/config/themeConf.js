@@ -1,4 +1,6 @@
-const sidebar = require("./sidebar-auto.js");
+// const sidebar = require("./sidebar-auto.js");
+
+const sidebar = require("vuepress-sidebar-generator")
 
 module.exports = {
   repo: "susuyan/blog",
@@ -6,7 +8,7 @@ module.exports = {
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
   lastUpdated: "更新于",
-  sidebar,
+  sidebar: sidebar.getSidebarList(),
   nav: [
     { text: 'Home', link: '/' },
     { text: 'Guide', link: '/guide/' },
