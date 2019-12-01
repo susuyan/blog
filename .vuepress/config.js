@@ -5,6 +5,8 @@ const {
   } = require('./config')
   
   module.exports = {
+    title: '个人主页', 
+    description: '苏苏炎的博客',
     locales: localesConf,
     base: "/blog/",
     repo: "susuyan/blog/"
