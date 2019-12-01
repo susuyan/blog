@@ -34,6 +34,7 @@
     "prettier": "^1.17.1",
     "tracer": "^1.0.1",
     "vuepress": "^1.2.0",
+    "vuepress-bar": "^0.2.1",
     "vuepress-plugin-comment": "^0.5.4",
     "vuepress-plugin-viewer": "^1.0.0",
     "vuepress-sidebar-generator": "^0.1.1"
