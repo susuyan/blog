@@ -3,9 +3,10 @@
 module.exports = {
     nav: [
       {
-        text: 'Languages',
+        text: '数据结构与算法',
         items: [
-          { text: 'Chinese', link: '/language/chinese/' },
+          { text: '数据结构', link: '/language/chinese/' },
+          { text: '算法', link: ''}
         ]
       },
       {
@@ -13,7 +14,7 @@ module.exports = {
         link: ''
       },
       { 
-        text: 'hello',
+        text: 'Vue',
         link: ''
       }
 
