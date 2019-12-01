@@ -10,7 +10,6 @@ module.exports = {
   lastUpdated: "更新于",
   sidebar: sidebar.getSidebarList(),
   nav: [
-    { text: 'Home', link: '/' },
     { text: 'Guide', link: '/guide/' },
     { text: 'External', link: 'https://google.com' },
   ]
