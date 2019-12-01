@@ -7,7 +7,6 @@ const barConfig = getConfig(`${"/docs"}/..`)
 
 module.exports = {
   repo: "susuyan/blog",
-  base: "/blog/",
   navbar: true,
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
