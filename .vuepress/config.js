@@ -6,7 +6,7 @@ const {
   
   module.exports = {
     title: '苏苏炎', 
-    description: '苏苏炎的博客',
+    description: '',
     locales: localesConf,
     base: "/blog/",
     themeConfig: themeConf,    
