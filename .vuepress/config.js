@@ -1,4 +1,4 @@
-const {
+  const {
     mdConf,
     themeConf,
     localesConf,
@@ -6,11 +6,37 @@ const {
   
   module.exports = {
     title: '苏苏炎', 
-    description: '',
+    description: '坚持记录。 没有丰富的储备，你就无法去创造，你就不可能无中生有，你脑子里有东西，才可能去创造。',
     locales: localesConf,
     base: "/blog/",
-    themeConfig: themeConf,    
+    themeConfig: {
+      nav: [
+        {
+          text: 'Languages',
+          items: [
+            { text: 'Chinese', link: '/language/chinese/' },
+            { text: 'Japanese', link: '/language/japanese/' }
+          ]
+        },
+        {
+          text: 'Swift',
+          link: ''
+        }
+
+      ]
+    },    
     markdown: mdConf,
+    plugins: [
+      require('./plugins/my-router'),
+      require('./plugins/my-loader'),
+      require('vuepress-plugin-viewer'),
+      '@vuepress/back-to-top',
+      [ 
+            '@vuepress/google-analytics', { 'ga': 'UA-63856296-2' }
+      ],
+
+
+    ]
     // plugins: [
     //   require('./plugins/my-router'),
     //   require('./plugins/my-loader'),

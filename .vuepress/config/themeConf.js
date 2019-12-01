@@ -11,9 +11,8 @@ module.exports = {
   editLinks: true,
   editLinkText: "在 GitHub 上编辑此页",
   lastUpdated: "更新于",
-  sidebar: false,
   nav: [
-    { text: 'Guide', link: '/guide/' },
+    { text: 'Vue', link: '/guide/' },
     { text: 'External', link: 'https://google.com' },
   ]
 };
