@@ -249,10 +249,15 @@
 
 ## 调试
 
+- In AppView Debugger
+- MTHawkeye
+- Dtrace
+- LLDB
+- Injection for Xcode
+- Lookin
+
 ## 测试
 
-- 单元测试
-- LLDB
 - BDD
 - XCTest
 - kiwi
