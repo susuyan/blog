@@ -1,15 +1,47 @@
 ---
-title: "标签应用和版本管理"
-date: "2018-09-06"
-permalink: "2018-09-06-git-tag-and-version"
+title: "Vuepress blog"
+date: "2019-12-02"
+permalink: "Vuepress-blog"
 ---
 
-## vuepress 怎么就这么麻烦呢
+# Vuepress blog
 
-真实起了怪了
+[Vuepress](https://vuepress.vuejs.org/zh/guide/) 作为自己的文档输出工具，真是挺不错的。近期，陆陆续续要将散落在各个地方的一些记录，都整理到这个站点里边，并进行长期的维护了。
 
-```swift
-let a = "hello"
-let b = "world"
-print(a + b)
+花了一天的时间，把 Node.js 撸了一遍，才算把 Vuepress 搭建完成。
+
+记录一下中间的一些过程。往后的插件完善，也在这里进行补充。
+
+## Vuepress 安装
+
+```js
+# 安装
+yarn global add vuepress # 或者：npm install -g vuepress
+
+# 创建项目目录
+mkdir blog && cd blog
+
+# 将 VuePress
+yarn add  vuepress # 或者：npm install  vuepress
+
+# 新建一个 docs 文件夹
+mkdir docs
+
+# 新建一个 markdown 文件
+echo '# Hello VuePress!' > docs/README.md
+
+# 构建静态文件
+vuepress build .
+
+# 开始写作
+vuepress dev .
+
 ```
+
+## 部署
+
+## Travis CI
+
+## Github Comment
+
+## Nav Bar & Side Bar
