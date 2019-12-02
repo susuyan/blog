@@ -1,6 +1,6 @@
 ---
 title: "关于我"
-permalink: "about"
+permalink: "About"
 single: true
 ---
 

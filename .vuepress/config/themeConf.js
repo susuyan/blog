@@ -14,8 +14,8 @@ module.exports = {
         link: ''
       },
       { 
-        text: 'Vue',
-        link: ''
+        text: '关于我',
+        link: '/About'
       }
 
     ],
