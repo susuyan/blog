@@ -1,6 +1,6 @@
 ---
 title: "关于我"
-permalink: "About"
+permalink: "about"
 single: true
 ---
 
@@ -12,9 +12,10 @@ single: true
 
 ## ⌨️ Code
 
-目前主要做 Swift 的相关的开发工作。
+用 Swift 做想做的事。
 
 ## ☎️ 联系
 
 **主页：** [https://susuyan.github.io/blog/](https://susuyan.github.io/blog/)
+
 **邮箱：** [susuyan@163.com](susuyan@163.com)
