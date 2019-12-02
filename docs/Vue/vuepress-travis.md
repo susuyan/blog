@@ -6,7 +6,7 @@ permalink: "Vuepress-blog"
 
 # Vuepress blog
 
-[Vuepress](https://vuepress.vuejs.org/zh/guide/) 作为自己的文档输出工具，真是挺不错的。近期，陆陆续续要将散落在各个地方的一些记录，都整理到这个站点里边，并进行长期的维护了。
+[Vuepress](https://vuepress.vuejs.org/zh/guide/) 作为自己的文档输出工具，真是挺不错的。近期，陆陆续续要将散落在各个地方的一些记录，整理起来，不断完善自己。
 
 花了一天的时间，把 Node.js 撸了一遍，才算把 Vuepress 搭建完成。
 
@@ -14,7 +14,7 @@ permalink: "Vuepress-blog"
 
 ## Vuepress 安装
 
-```js
+```sh
 # 安装
 yarn global add vuepress # 或者：npm install -g vuepress
 
