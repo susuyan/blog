@@ -5,7 +5,7 @@ module.exports = {
       {
         text: '数据结构与算法',
         items: [
-          { text: '数据结构', link: '/language/chinese/' },
+          { text: '数据结构', link: '' },
           { text: '算法', link: ''}
         ]
       },

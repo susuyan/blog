@@ -4,7 +4,7 @@ date: "2019-12-02"
 permalink: "Vuepress-blog"
 ---
 
-# Vuepress blog
+# Vuepress 实践
 
 [Vuepress](https://vuepress.vuejs.org/zh/guide/) 作为自己的文档输出工具，真是挺不错的。近期，陆陆续续要将散落在各个地方的一些记录，整理起来，不断完善自己。
 
@@ -12,7 +12,7 @@ permalink: "Vuepress-blog"
 
 记录一下中间的一些过程。往后的插件完善，也在这里进行补充。
 
-## Vuepress 安装
+## 安装
 
 ```sh
 # 安装
