@@ -4,7 +4,7 @@
 
   module.exports = {
     title: '苏苏炎', 
-    description: '坚持记录。 没有丰富的储备，你就无法去创造，你就不可能无中生有，你脑子里有东西，才可能去创造。',
+    description: '你比较的对象应该是昨天的自己，而不是今天的他人',
     base: "/blog/",
     themeConfig: themeConf,
     markdown: mdConf,    
