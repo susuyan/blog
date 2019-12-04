@@ -1,0 +1,6 @@
+# Swift 中的一些关键字
+
+* `**@discardableResult**`
+
+使用`@discardableResult`修饰一个有返回值的 `func` 时，使用`func`时，不适用返回值时，来消除Xcode中的警告。
+
