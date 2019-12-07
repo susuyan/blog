@@ -14,7 +14,7 @@ module.exports = {
         items: [
           {
             text: 'iOS-work',
-            link: '/ios-work'
+            link: '/passages/ios-work/'
           }
 
         ]
