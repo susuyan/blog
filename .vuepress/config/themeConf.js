@@ -14,7 +14,7 @@ module.exports = {
         items: [
           {
             text: 'iOS-work',
-            link: '/the-iOS/ios-work'
+            link: '/ios-work'
           }
 
         ]
