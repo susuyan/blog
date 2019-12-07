@@ -11,7 +11,13 @@ module.exports = {
       },
       {
         text: 'Swift',
-        link: ''
+        items: [
+          {
+            text: 'Swift 开源库',
+          link: 'swift-open-source'
+          }
+
+        ]
       },
       { 
         text: '关于我',
