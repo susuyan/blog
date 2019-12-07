@@ -14,7 +14,7 @@ module.exports = {
         items: [
           {
             text: 'Swift 开源库',
-          link: 'swift-open-source'
+          link: '/code-source'
           }
 
         ]
