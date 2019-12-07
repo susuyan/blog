@@ -10,11 +10,21 @@ module.exports = {
         ]
       },
       {
+        text: 'iOS',
+        items: [
+          {
+            text: 'iOS-work',
+            link: '/the-iOS/ios-work'
+          }
+
+        ]
+      },
+      {
         text: 'Swift',
         items: [
           {
             text: 'Swift 开源库',
-          link: '/code-source'
+            link: '/code-source'
           }
 
         ]
