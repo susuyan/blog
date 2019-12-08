@@ -14,7 +14,7 @@ module.exports = {
         items: [
           {
             text: 'iOS-work',
-            link: '/passages/ios-work/'
+            link: '/ios-work/'
           }
 
         ]
@@ -24,7 +24,7 @@ module.exports = {
         items: [
           {
             text: 'Swift 开源库',
-            link: '/code-source'
+            link: '/code-source/'
           }
 
         ]
