@@ -6,13 +6,13 @@
 - [Xcode 编译分析](https://github.com/RobertGummesson/BuildTimeAnalyzer-for-Xcode)
 - 代码统计脚本：
 
-简单命令行
+简单命令行:
 
 ```sh
 find . -name "*.swift" -print0 | xargs -0 wc -l
 ```
 
-cloc 使用脚本
+cloc 使用脚本:
 
 ```sh
 cloc . --exclude-dir=Carthage,Frameworks,generated,.idea,output,derivedData,Fastlane --not-match-d=.*\.framework --by-file --xml --out=output/cloc.xml
@@ -22,13 +22,15 @@ cloc . --exclude-dir=Carthage,Frameworks,generated,.idea,output,derivedData,Fast
 find . -type d \( -path ./Pods -o -path ./Vendor \) -prune -o \( -iname \*.m -o -iname \*.mm -o -iname \*.h -o -iname \*.swift \) -print0 | xargs -0 wc -l
 ```
 
-    * [SLOCCount Plugin](https://wiki.jenkins.io/display/JENKINS/SLOCCount+Plugin)
+- [SLOCCount Plugin](https://wiki.jenkins.io/display/JENKINS/SLOCCount+Plugin)
 
 ## 条件编译分析
 
 - **Xcode build duration**
 
-`defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES`
+```sh
+defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
+```
 
 - **Faster build times by leveraging multi-core CPU**
 
@@ -38,9 +40,10 @@ defaults write com.apple.dt.Xcode IDEBuildOperationMaxNumberOfConcurrentCompileT
 
 - **Flag to emit warnings whenever a function takes longer than some threshold to compile. Add the following to Other Swift Flags**
 
-设置常函数块阈值为 100ms
-
-`-Xfrontend -warn-long-function-bodies=100`
+```sh
+//设置常函数块阈值为 100ms
+-Xfrontend -warn-long-function-bodies=100
+```
 
 - **To enable warn about individual expressions that take a long time to type check, go the Build Settings, “Swift Compiler - Custom Flags”, “Other Swift Flags”, and add**
 
