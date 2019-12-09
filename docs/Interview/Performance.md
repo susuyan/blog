@@ -20,3 +20,7 @@
 - 怎么记录 app 启动速度
 - iOS 渲染图片  怎么优化
 - 说说 UITableView 的调优。——一方面是通过 instruments 检查影响性能的地方，另一方面是估算高度并在 runloop 空闲时缓存。
+
+## 参考
+
+- [美团外卖 iOS App 冷启动治理](https://tech.meituan.com/2018/12/06/waimai-ios-optimizing-startup.html)
