@@ -48,3 +48,19 @@
 - 简要说明 Swift 中的初始化器?
 
 - 什么可选链?
+
+* 高阶函数使用（map、flatmap、compactMap、filter、reduce）
+
+  - map 和 flatMap — 对元素进行变换。
+  - filter — 只包含特定的元素。
+  - allSatisfy — 针对一个条件测试所有元素。
+  - reduce — 将元素聚合成一个值。
+  - forEach — 访问每个元素。
+  - sort(by:), sorted(by:), lexicographicallyPrecedes(\_:by:), 和 partition(by:) — 重排元素。
+  - firstIndex(where:),lastIndex(where:),first(where:),last(where:), 和 contains(where:) — 一个元素是否存在？
+  - min(by:) 和 max(by:) — 找到所有元素中的最小或最大值。
+  - elementsEqual(\_:by:) 和 starts(with:by:) — 将元素与另一个数组进行比较。
+  - split(whereSeparator:) — 把所有元素分成多个数组。
+  - prefix(while:) — 从头取元素直到条件不成立。
+  - drop(while:) — 当条件为真时，丢弃元素；一旦不为真，返回其余的元素(和 prefix 类似，不过返回相反的集合)。
+  - removeAll(where:) — 删除所有符合条件的元素。
