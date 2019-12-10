@@ -1,14 +1,17 @@
 # Swift 面试题
 
-- 类(class) 和 结构体(struct) 有什么区别? 类(class) 和 结构体(struct) 比较,优缺点?
+- **类(class) 和 结构体(struct) 有什么区别? 类(class) 和 结构体(struct) 比较,优缺点?**
 
-- Swift 是面向对象还是函数式的编程语言?
+1. 引用类型和值类型的区别
+2.
 
 - 什么是泛型，swift 哪些地方使用了泛型？
 
 - 如何解决引用循环
 
-- 定义静态方法时关键字 static 和 class 有什么区别
+- **定义静态方法时关键字 static 和 class 有什么区别**
+
+class 修饰时，子类可以重写父类类方法。
 
 - 请说明并比较以下关键词：Open, Public, Internal, File-private, Private
 
@@ -49,7 +52,7 @@
 
 - 什么可选链?
 
-* 高阶函数使用（map、flatmap、compactMap、filter、reduce）
+* **高阶函数使用（map、flatmap、compactMap、filter、reduce）**
 
   - map 和 flatMap — 对元素进行变换。
   - filter — 只包含特定的元素。
