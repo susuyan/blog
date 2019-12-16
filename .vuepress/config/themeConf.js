@@ -8,7 +8,7 @@ module.exports = {
       {
         text: '数据结构与算法',
         items: [
-          { text: '数据结构', link: '' },
+          { text: '数据结构', link: '/passages/2019-12-16-data-struct/' },
           { text: '算法', link: ''}
         ]
       },
