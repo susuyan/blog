@@ -14,5 +14,8 @@ module.exports = {
       return;
     }
 
+    frontmatter.commentid = frontmatter.permalink;
+    frontmatter.permalink = `${routePfx}${frontmatter.permalink}`;
+
   }
 };
