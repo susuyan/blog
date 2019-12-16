@@ -1,6 +1,9 @@
 // const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
+    
+    lastUpdated: '更新于',
+    sidebar,
     nav: [
       {
         text: '数据结构与算法',
@@ -24,7 +27,7 @@ module.exports = {
         items: [
           {
             text: 'Swift 开源库',
-            link: '/passages/2019-12-16-swift-open-source-source/'
+            link: '/passages/2019-12-16-swift-open-source/'
           }
 
         ]
@@ -34,6 +37,5 @@ module.exports = {
         link: '/About'
       }
 
-    ],
-    lastUpdated: '上次更新'
+    ]
 };
