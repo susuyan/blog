@@ -24,7 +24,7 @@ module.exports = {
         items: [
           {
             text: 'Swift 开源库',
-            link: '/2019-12-16-swift-open-source-source/'
+            link: '/passages/2019-12-16-swift-open-source-source/'
           }
 
         ]
