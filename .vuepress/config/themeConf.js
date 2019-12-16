@@ -6,6 +6,12 @@ module.exports = {
     sidebar,
     nav: [
       {
+        text: '最新',
+        link: '/guide/'
+
+
+      },
+      {
         text: '数据结构与算法',
         items: [
           { text: '数据结构', link: '/passages/2019-12-16-data-struct/' },
