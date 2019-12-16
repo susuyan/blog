@@ -4,8 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs",
     "check": "node bin/prettier.js -t docs -c",
     "lint": "node bin/prettier.js -t docs -l",
     "start": "npm run dev",
