@@ -1,4 +1,4 @@
-// const sidebar = require("./sidebar-auto.js");
+const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
     

@@ -1,9 +1,6 @@
 <template>
   <aside class="right-sidebar">
-    <div class="right-sidebar-links">
-      <div class="right-sidebar-header">关注公众号</div>
-      <img src="https://static.godbmw.com/img/public/wechat-8cm.jpg" alt="公众号搜索：心谭博客" srcset />
-    </div>
+    
 
     <div class="right-sidebar-links">
       <div class="right-sidebar-header">
@@ -15,20 +12,6 @@
       </div>
     </div>
 
-    <div class="right-sidebar-links">
-      <div class="right-sidebar-header">
-        想法
-        <a href="/passages/2019-11-25-how-insist-on-learning/" target="_blank">&gt;&gt;&gt;查看全部</a>
-      </div>
-      <div
-        class="right-sidebar-item"
-        v-for="(diary, index) in relatedDiaries"
-        :key="index"
-        :title="diary.title"
-      >
-        <a target="_blank" :href="diary.path" :title="diary.title">{{diary.title}}</a>
-      </div>
-    </div>
   </aside>
 </template>
 

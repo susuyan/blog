@@ -9,7 +9,6 @@
     "start": "npm run dev",
     "dev": "nodemon --watch docs bin/sidebar.js & ./node_modules/.bin/vuepress dev .",
     "build": "node bin/sidebar.js && ./node_modules/.bin/vuepress build ."
-
   },
   "repository": {
     "type": "git",
