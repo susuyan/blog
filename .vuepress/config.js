@@ -4,7 +4,7 @@
 
   module.exports = {
     title: '苏苏炎', 
-    description: '你比较的对象应该是昨天的自己，而不是今天的他人',
+    description: '',
     base: "/blog/",
     themeConfig: themeConf,
     markdown: mdConf,    
