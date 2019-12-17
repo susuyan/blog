@@ -1,8 +1,10 @@
 const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
-    
-    lastUpdated: '更新于',
+    repo: "susuyan/blog",
+    navbar: true,
+    editLinks: true,
+    lastUpdated: "更新于",
     sidebar,
     nav: [
       {
