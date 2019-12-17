@@ -1,3 +1,9 @@
+---
+title: "了解 JSON"
+date: "2019-12-17"
+permalink: "2019-12-17-about-json"
+---
+
 ## 了解 JSON
 
 `JSON`(JavaScript Object Notation) 是一种`轻量级的数据交换格式`。 易于人阅读和编写。同时也易于机器解析和生成。 它基于 JavaScript Programming Language, Standard ECMA-262 3rd Edition - December 1999 的一个子集。 JSON 采用完全独立于语言的文本格式，但是也使用了类似于 C 语言家族的习惯（包括 C, C++, C#, Java, JavaScript, Perl, Python 等）。 这些特性使 JSON 成为理想的数据交换语言。
