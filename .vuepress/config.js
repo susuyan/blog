@@ -5,7 +5,6 @@
   module.exports = {
     title: '苏苏炎', 
     description: '',
-    base: "/blog/",
     themeConfig: themeConf,
     markdown: mdConf,    
     plugins: [
