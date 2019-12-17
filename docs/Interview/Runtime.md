@@ -1,3 +1,9 @@
+---
+title: "面试-Runtime"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-runtime"
+---
+
 # Runtime
 
 - **runtime 中，SEL 和 IMP 的区别**

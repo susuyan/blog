@@ -1,3 +1,9 @@
+---
+title: "面试-网络"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-network"
+---
+
 # 网络
 
 - AFNetworking 是否支持 ipv6？ 7.项目采用 64 位，为什么要用 64 位？怎么修改成 64 位？i386 是什么？他们有什么关系?

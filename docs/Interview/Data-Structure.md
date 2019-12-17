@@ -1,3 +1,9 @@
+---
+title: "面试-数据结构"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-data-structure"
+---
+
 - 字典大致实现原理?
 
 - NSArray 和 NSMutableArray 在 Copy 和 MutableCopy 下的内存是怎样的？

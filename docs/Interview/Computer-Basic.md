@@ -1,3 +1,9 @@
+---
+title: "面试-计算机基础"
+date: "2019-12-17"
+permalink: "2019-12-17-computer-basic"
+---
+
 # 计算机基础
 
 - [一个程序是如何被机器运行起来的？](https://www.jianshu.com/p/368eb8abbfe4)

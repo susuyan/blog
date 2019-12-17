@@ -1,3 +1,9 @@
+---
+title: "面试-Objc"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-objc"
+---
+
 - 消息转发机制
 - KVC 机制是如何通过 key 找到 value。
 - KVO、Notification、delegate 各自的优缺点，效率还有使用场景

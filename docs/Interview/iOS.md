@@ -1,4 +1,10 @@
-##
+---
+title: "面试-iOS"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-ios"
+---
+
+## iOS
 
 - load 方法执行顺序，分类和主类的 load 方法顺序，两个分类的 load 方法顺序，跟 main 函数的顺序
 

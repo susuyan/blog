@@ -1,3 +1,9 @@
+---
+title: "面试-UIKit"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-uikit"
+---
+
 # UIKit 相关问题
 
 - 在一个 UI 的正中间实现一个正方形的红色视图有几种方式？

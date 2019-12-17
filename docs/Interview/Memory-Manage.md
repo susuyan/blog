@@ -1,3 +1,9 @@
+---
+title: "面试-算法"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-memory-manage"
+---
+
 ## Autorelease pool
 
 - Autorelease pool 的实现原理

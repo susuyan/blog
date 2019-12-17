@@ -1,3 +1,9 @@
+---
+title: "面试-Objc-Block"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-block"
+---
+
 # 关于 Block
 
 - **Block 的循环引用、如何解决、原理？**

@@ -1,3 +1,9 @@
+---
+title: "面试-架构"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-architecture"
+---
+
 # 架构
 
 - MVC 和 MVVM 的区别？

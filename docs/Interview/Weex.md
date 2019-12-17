@@ -1,3 +1,9 @@
+---
+title: "面试-weex"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-weex"
+---
+
 # Weex 相关面试题
 
 - weex 原理， 怎么优化的

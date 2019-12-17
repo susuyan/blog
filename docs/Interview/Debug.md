@@ -1,3 +1,9 @@
+---
+title: "面试-调式"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-debug"
+---
+
 # 调试
 
 - dSYM 你是如何分析的？

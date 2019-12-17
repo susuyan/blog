@@ -1,3 +1,9 @@
+---
+title: "面试-算法"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-multi-thread"
+---
+
 # 关于多线程
 
 ## 概念

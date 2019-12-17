@@ -1,3 +1,9 @@
+---
+title: "面试-生命周期"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-life-cycle"
+---
+
 # 关于生命周期
 
 - **介绍下 App 启动的完成过程？**

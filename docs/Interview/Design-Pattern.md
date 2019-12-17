@@ -1,3 +1,9 @@
+---
+title: "面试-设计模式"
+date: "2019-12-17"
+permalink: "2019-12-17-interview-design-pattern"
+---
+
 # 设计模式
 
 ## 单例弊端？
