@@ -1,7 +1,8 @@
 const sidebar = require("./sidebar-auto.js");
 
 module.exports = {
-    repo: "susuyan/blog",
+    base: "blog",
+    repo: "https://github.com/susuyan/blog",
     navbar: true,
     editLinks: true,
     lastUpdated: "更新于",

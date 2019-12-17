@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "",
+  "description": "iOS、Swift、Python、Ruby、Go",
   "main": "index.js",
   "scripts": {
     "check": "node bin/prettier.js -t docs -c",
