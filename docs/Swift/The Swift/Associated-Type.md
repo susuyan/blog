@@ -1,3 +1,9 @@
+---
+title: "关联类型"
+date: "2019-12-17"
+permalink: "2019-12-17-swift-associated-types"
+---
+
 # 关联类型的一些应用
 
 ## [了解关联类型](http://swift.gg/2016/08/01/swift-associated-types/)

@@ -1,3 +1,9 @@
+---
+title: "Swift POP Program"
+date: "2019-12-17"
+permalink: "2019-12-17-swift-pop-program"
+---
+
 # 协议 & 面向协议编程
 
 平日的业务代码编写中，使用协议的场景，除了写 delegate 有使用到，几乎是很少使用协议来优化代码的编写，所以是很不 Swift。在 Swift2.0 中，苹果引入了新的编程范式，就是面向协议编程。近日，在阅读 `Alamfire`、`Moya`、`Reusable` 等源码，面向协议的编码方式，感受颇深。`Moya` 利用协议属性集中管理 API 接口，`Reusable` 通过协议扩展，为我们提供了更加又优雅的使用`reuseIdentifier`。

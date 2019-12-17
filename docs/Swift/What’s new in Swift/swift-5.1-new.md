@@ -1,3 +1,9 @@
+---
+title: "What’s new in Swift 5.1"
+date: "2019-12-17"
+permalink: "2019-12-17-new-in-swift-5.1"
+---
+
 ## What’s new in Swift 5.1
 
 #### 1. 属性包装器 Massive improvements to synthesized memberwise initializers
