@@ -1,3 +1,9 @@
+---
+title: "Swift Compile Optimize"
+date: "2019-12-2"
+permalink: "2019-12-2-swift-compile-optimize"
+---
+
 # 编译优化
 
 ## 工具
