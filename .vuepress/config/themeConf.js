@@ -41,6 +41,15 @@ module.exports = {
 
         ]
       },
+      {
+        text: '其他',
+        items: [
+          {
+            text: '面试题',
+            link: '/passages/2019-12-17-interview/'
+          }
+        ]
+      },
       { 
         text: '关于我',
         link: '/About'
