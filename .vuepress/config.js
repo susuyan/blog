@@ -4,7 +4,7 @@
 
   module.exports = {
     title: '苏苏炎', 
-    description: '',
+    description: ' ',
     themeConfig: themeConf,
     markdown: mdConf,    
     plugins: [

@@ -1,5 +1,5 @@
 ---
-title: "面试-算法"
+title: "面试-多线程"
 date: "2019-12-17"
 permalink: "2019-12-17-interview-multi-thread"
 ---
