@@ -10,5 +10,5 @@ permalink: "2019-12-17-interview"
 
 ## 语言
 
-- [Swift](/passages/2019-12-17-interview-swift/)
+- [Swift](https://susuyan.com/passages/2019-12-17-interview-swift/)
 - [Objective-C](/passages/2019-12-17-interview-objc)
