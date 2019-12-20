@@ -15,13 +15,6 @@ module.exports = {
 
       },
       {
-        text: '数据结构与算法',
-        items: [
-          { text: '数据结构', link: '/passages/2019-12-16-data-struct/' },
-          { text: '算法', link: ''}
-        ]
-      },
-      {
         text: 'iOS',
         items: [
           {
@@ -44,9 +37,17 @@ module.exports = {
       {
         text: '其他',
         items: [
-          {
+          { 
             text: '面试题',
             link: '/passages/2019-12-17-interview/'
+          },
+          { 
+            text: '数据结构',
+            link: '/passages/2019-12-16-data-struct/' 
+          },
+          { 
+            text: '算法', 
+            link: ''
           }
         ]
       },
