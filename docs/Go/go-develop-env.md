@@ -101,3 +101,4 @@ func main() {
 
 - [Mac 安装 Golang 和 vscode](http://ddrv.cn/a/314841)
 - [vscode-go](https://github.com/Microsoft/vscode-go/wiki/Go-tools-that-the-Go-extension-depends-on)
+- [Getting Started](https://golang.org/doc/install)
