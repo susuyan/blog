@@ -1,7 +1,5 @@
 <template>
   <aside class="right-sidebar">
-    
-
     <div class="right-sidebar-links">
       <div class="right-sidebar-header">
         最近更新
@@ -11,7 +9,6 @@
         <a target="_blank" :href="article.path" :title="article.title">{{article.title}}</a>
       </div>
     </div>
-
   </aside>
 </template>
 
