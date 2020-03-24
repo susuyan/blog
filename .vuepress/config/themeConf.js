@@ -9,17 +9,32 @@ module.exports = {
   sidebar,
   nav: [
     {
-      text: "最新",
-      link: "/guide/"
+      text: "Home",
+      link: "/"
     },
     {
-      text: "iOS",
-      items: [
-        {
-          text: "iOS-work",
-          link: "/ios-work/"
-        }
-      ]
+      text: "About",
+      link: "/About"
+    },
+    {
+      text: "Projects",
+      link: "/"
+    },
+    {
+      text: "Wiki",
+      link: "/"
+    },
+    {
+      text: "Likes",
+      link: "/"
+    },
+    {
+      text: "Now",
+      link: "/"
+    },
+    {
+      text: "CV",
+      link: "/"
     },
     {
       text: "Swift",
@@ -29,27 +44,6 @@ module.exports = {
           link: "/passages/2019-12-16-swift-open-source/"
         }
       ]
-    },
-    {
-      text: "其他",
-      items: [
-        {
-          text: "面试题",
-          link: "/passages/2019-12-17-interview/"
-        },
-        {
-          text: "数据结构",
-          link: "/passages/2019-12-16-data-struct/"
-        },
-        {
-          text: "算法",
-          link: ""
-        }
-      ]
-    },
-    {
-      text: "关于我",
-      link: "/About"
     }
   ]
 };
