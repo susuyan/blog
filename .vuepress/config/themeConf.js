@@ -37,7 +37,7 @@ module.exports = {
       link: "/"
     },
     {
-      text: "Swift",
+      text: "OpenSource",
       items: [
         {
           text: "Swift 开源库",
