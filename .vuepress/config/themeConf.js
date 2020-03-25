@@ -4,7 +4,7 @@ module.exports = {
   base: "blog",
   repo: "https://github.com/susuyan/blog",
   navbar: true,
-  editLinks: true,
+  editLinks: false,
   lastUpdated: "更新于",
   sidebar,
   nav: [
@@ -18,23 +18,23 @@ module.exports = {
     },
     {
       text: "Projects",
-      link: "/"
+      link: ""
     },
     {
       text: "Wiki",
-      link: "/"
+      link: ""
     },
     {
       text: "Likes",
-      link: "/"
+      link: ""
     },
     {
       text: "Now",
-      link: "/"
+      link: ""
     },
     {
       text: "CV",
-      link: "/"
+      link: ""
     },
     {
       text: "OpenSource",
