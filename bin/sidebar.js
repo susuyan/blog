@@ -4,7 +4,7 @@ const ejs = require("ejs");
 const logger = require("tracer").colorConsole();
 
 const docsRoot = path.join(__dirname, "..", "docs");
-const notesRoot = path.join(__dirname, "..", "wikis");
+const wikisRoot = path.join(__dirname, "..", "wikis");
 const sidebarPath = path.join(
   __dirname,
   "..",
@@ -46,12 +46,12 @@ function main() {
     });
   });
 
-  const notesJs = mapTocToSidebar(notesRoot);
-  if (notesJs.length) {
+  const wikisJs = mapTocToSidebar(wikisRoot);
+  if (wikisJs.length) {
     variables.push({
       path: "/wikis/",
       name: "wikis",
-      js: notesJs
+      js: wikisJs
     });
   }
 
@@ -99,7 +99,7 @@ function mapTocToSidebar(root, prefix) {
         `For ${file}, its order has appeared in the same level directory. And it will be rewritten.`
       );
     }
-
+    
     if (stat.isDirectory()) {
       sidebar[order] = {
         title,

@@ -16,6 +16,5 @@ module.exports = {
 
     frontmatter.commentid = frontmatter.permalink;
     frontmatter.permalink = `${routePfx}${frontmatter.permalink}`;
-
   }
 };
