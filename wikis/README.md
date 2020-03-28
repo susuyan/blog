@@ -2,7 +2,6 @@
 date: "2020-3-26"
 title: "Wiki"
 permalink: "/wikis"
-single: true
 ---
 
 # Wiki
