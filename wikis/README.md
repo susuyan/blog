@@ -1,7 +1,7 @@
 ---
 date: "2020-3-26"
 title: "Wiki"
-permalink: "/wikis"
+permalink: /wikis
 ---
 
 # Wiki
@@ -17,4 +17,3 @@ permalink: "/wikis"
 - 遇到见过的问题，快速通过自建的 Wiki 定位问题，给出解决方案或解决线索，最终的结果也要反馈的相应的主题中去
 - Wiki 快速检索的工作流
 - 主题代表着某一知识的各种线索的集合
-
