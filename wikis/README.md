@@ -1,7 +1,7 @@
 ---
 date: "2020-3-26"
 title: "Wiki"
-permalink: "/wiki"
+permalink: "/wikis"
 single: true
 ---
 
