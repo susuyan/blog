@@ -1,7 +1,6 @@
 ---
 date: "2019-12-22"
 title: "Flutter 布局"
-permalink: "2019-12-22-flutter-layout"
 ---
 
 # Flutter 布局

@@ -1,7 +1,6 @@
 ---
 date: "2019-12-26"
 title: "Flutter BLoC pattern"
-permalink: "2019-12-26-flutter-bloc"
 ---
 
 # Flutter BLoC pattern

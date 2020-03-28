@@ -1,7 +1,6 @@
 ---
 date: "2019-12-29"
 title: "Flutter 渲染机制"
-permalink: "2019-12-29-flutter-randering"
 ---
 
 # Flutter 渲染机制

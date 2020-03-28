@@ -1,7 +1,6 @@
 ---
 date: "2019-12-21"
 title: "搭建 Flutter Mac 开发环境"
-permalink: "2019-12-21-flutter-development"
 ---
 
 # 搭建 Flutter 开发环境

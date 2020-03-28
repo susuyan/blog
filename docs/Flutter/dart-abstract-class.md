@@ -1,7 +1,6 @@
 ---
 date: "2019-12-31"
 title: "Dart 抽象类"
-permalink: "2019-12-31-dart-abstract-class"
 ---
 
 # Dart 抽象类

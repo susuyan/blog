@@ -1,7 +1,6 @@
 ---
 date: "2020-01-18"
 title: "Flutter Android Development"
-permalink: "2020-01-18-flutter-android"
 ---
 
 # Flutter Android 开发环境
