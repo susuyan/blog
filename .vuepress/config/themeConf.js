@@ -21,6 +21,10 @@ module.exports = {
       link: ""
     },
     {
+      text: "Blog",
+      link: ""
+    },
+    {
       text: "Wiki",
       link: "/wiki"
     },

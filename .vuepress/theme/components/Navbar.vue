@@ -125,7 +125,7 @@ $navbar-horizontal-padding = 1.5rem;
   }
 
   .search-box {
-    flex: 0 0 auto;
+    padding-left: 10rem;
     vertical-align: top;
   }
 }
