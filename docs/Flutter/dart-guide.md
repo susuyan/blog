@@ -1,7 +1,7 @@
 ---
 date: "2019-12-21"
 title: "Dart 指南"
-permalink: /dart-guide
+permalink: /flutter/dart-guide
 ---
 
 # Dart 指南
