@@ -30,15 +30,15 @@ module.exports = {
     },
     {
       text: "Likes",
-      link: "/likes"
+      link: "/likes/"
     },
     {
       text: "Now",
-      link: "/now"
+      link: "/now/"
     },
     {
       text: "CV",
-      link: "/cv"
+      link: "/cv/"
     },
     {
       text: "OpenSource",
