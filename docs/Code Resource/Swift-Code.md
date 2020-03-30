@@ -1,7 +1,8 @@
 ---
 title: "Swift 开源库"
 date: "2019-12-16"
-permalink: "2019-12-16-swift-open-source"
+type: "blog"
+permalink: "swift-open-source"
 ---
 
 # Swift 开源库

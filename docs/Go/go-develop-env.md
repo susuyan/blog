@@ -1,7 +1,8 @@
 ---
 date: "2019-12-25"
 title: "Go 开发环境搭建(Mac + VSCode)"
-permalink: "2019-12-25-go-develop-env"
+permalink: "go-develop-env"
+type: "blog"
 ---
 
 # Go 开发环境搭建

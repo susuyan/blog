@@ -1,6 +1,7 @@
 ---
 date: "2019-12-22"
 title: "Flutter 布局"
+type: "blog"
 ---
 
 # Flutter 布局

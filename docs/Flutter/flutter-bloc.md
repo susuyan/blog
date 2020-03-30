@@ -1,6 +1,7 @@
 ---
 date: "2019-12-26"
 title: "Flutter BLoC pattern"
+type: "blog"
 ---
 
 # Flutter BLoC pattern

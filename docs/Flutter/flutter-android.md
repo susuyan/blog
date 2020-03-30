@@ -1,6 +1,7 @@
 ---
 date: "2020-01-18"
 title: "Flutter Android Development"
+type: "blog"
 ---
 
 # Flutter Android 开发环境

@@ -1,6 +1,7 @@
 ---
 date: "2019-12-21"
 title: "搭建 Flutter Mac 开发环境"
+type: "blog"
 ---
 
 # 搭建 Flutter 开发环境
