@@ -15,6 +15,9 @@ module.exports = {
     }
 
     frontmatter.commentid = frontmatter.permalink;
+    if (frontmatter.type === "blog"){
+      frontmatter.permalink = `/blog/${frontmatter.permalink}`
+    }
     // frontmatter.permalink = `${routePfx}${frontmatter.permalink}`;
   }
 };

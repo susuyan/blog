@@ -6,25 +6,25 @@
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       show: false
-    }
+    };
   },
-  mounted () {
+  mounted() {
     this.$router.beforeEach((to, from, next) => {
       if (to.path !== from.path) {
-        this.show = true
-        next()
+        this.show = true;
+        next();
       } else {
-        next()
+        next();
       }
-    })
+    });
     this.$router.afterEach((to, from) => {
-      this.show = false
-    })
+      this.show = false;
+    });
   }
-}
+};
 </script>
 
 <style scoped>
