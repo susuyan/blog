@@ -2,7 +2,7 @@
 date: "2019-12-31"
 title: "Dart 抽象类"
 type: "blog"
-permalink: "dart-abstract-class"
+permalink: "dart-abstract-class.html"
 ---
 
 # Dart 抽象类
