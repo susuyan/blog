@@ -46,14 +46,17 @@ function main() {
     });
   });
 
-  const wikisJs = mapTocToSidebar(wikisRoot);
-  if (wikisJs.length) {
-    variables.push({
-      path: "/wikis/",
-      name: "wikis",
-      js: wikisJs
-    });
-  }
+  const wikiTocs = readTocs(wikisRoot);
+  wikiTocs.forEach(item => {
+    const wikisJs = mapTocToSidebar(wikisRoot);
+    if (wikisJs.length) {
+      variables.push({
+        path: `/wikis/${path.basename(item)}/`,
+        name: path.basename(item).replace(/ /g, "_"),
+        wikisJs
+      });
+    }
+  });
 
   fs.writeFileSync(sidebarPath, ejs.render(template, { variables }));
 }
@@ -99,7 +102,7 @@ function mapTocToSidebar(root, prefix) {
         `For ${file}, its order has appeared in the same level directory. And it will be rewritten.`
       );
     }
-    
+
     if (stat.isDirectory()) {
       sidebar[order] = {
         title,

@@ -1,7 +1,6 @@
 ---
 title: "概要"
-permalink: "about"
-single: true
+permalink: /about
 ---
 
 # 概要

@@ -125,7 +125,6 @@ $navbar-horizontal-padding = 1.5rem;
   }
 
   .search-box {
-    padding-left: 10rem;
     vertical-align: top;
   }
 }

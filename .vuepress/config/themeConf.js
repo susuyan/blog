@@ -5,6 +5,7 @@ module.exports = {
   repo: "https://github.com/susuyan/blog",
   navbar: true,
   editLinks: false,
+  displayAllHeaders: false,
   lastUpdated: "更新于",
   sidebar,
   nav: [
@@ -14,7 +15,7 @@ module.exports = {
     },
     {
       text: "About",
-      link: "/About"
+      link: "/about/"
     },
     {
       text: "Projects",
