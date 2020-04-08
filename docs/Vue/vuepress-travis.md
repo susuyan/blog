@@ -93,6 +93,6 @@ script:
   - ./deploy.sh
 ```
 
-## Github Comment
+## 插件
 
-## Nav Bar & Side Bar
+* [侧边栏分组插件](https://github.com/shanyuhai123/vuepress-plugin-auto-sidebar)

@@ -18,15 +18,8 @@ const sidebarPath = path.join(
   const <%- variable.name %> = <%- JSON.stringify(variable.js); %>
 <% } %>
 */
-const template = `
-module.exports = {
-  <% for (let variable of variables) { %>
-    "<%- variable.path %>": <%- variable.name %>,
-  <% } %>
-}
-`;
 
-const template1 = `
+const template = `
 module.exports = {
  '/wikis/': [ <% for (let variable of variables) { %>
     {
@@ -62,9 +55,7 @@ function main() {
 
   variables = sideWiki();
 
-  // sideWiki();
-
-  fs.writeFileSync(sidebarPath, ejs.render(template1, { variables }));
+  fs.writeFileSync(sidebarPath, ejs.render(template, { variables }));
 }
 
 /**
@@ -218,4 +209,3 @@ function readDir(rootPath) {
 
   return rootDirs;
 }
-
