@@ -24,6 +24,8 @@ export default {
 <style lang="stylus">
 @require '../styles/wrapper.styl';
 
+
+
 .page {
   padding-bottom: 2rem;
   display: block;

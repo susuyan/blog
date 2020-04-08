@@ -1,9 +1,3 @@
----
-date: "2020-3-26"
-title: "Wiki"
-permalink: /wikis
----
-
 # Wiki
 
 作为数字大脑输出。

@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const logger = require("tracer").colorConsole();
+const dirTree = require("directory-tree");
 
 const docsRoot = path.join(__dirname, "..", "docs");
 const wikisRoot = path.join(__dirname, "..", "wikis");
@@ -12,15 +13,28 @@ const sidebarPath = path.join(
   "config",
   "sidebar-auto.js"
 );
-const template = `
+/*
 <% for(let variable of variables) { %>
   const <%- variable.name %> = <%- JSON.stringify(variable.js); %>
 <% } %>
-
+*/
+const template = `
 module.exports = {
   <% for (let variable of variables) { %>
     "<%- variable.path %>": <%- variable.name %>,
   <% } %>
+}
+`;
+
+const template1 = `
+module.exports = {
+ '/wikis/': [ <% for (let variable of variables) { %>
+    {
+      title: "<%- variable.title %>",
+      collapsable: <%- variable.collapsable %>,
+      children: <%- JSON.stringify(variable.children) %>
+    },
+  <% } %>]
 }
 `;
 
@@ -30,35 +44,27 @@ main();
  * 主体函数
  */
 function main() {
-  const variables = [];
+  let variables = [];
 
-  const tocs = readTocs(docsRoot);
-  tocs.forEach(toc => {
-    const js = mapTocToSidebar(toc);
-    if (!js.length) {
-      return;
-    }
+  // const tocs = readTocs(docsRoot);
+  // tocs.forEach((toc) => {
+  //   const js = mapTocToSidebar(toc);
+  //   if (!js.length) {
+  //     return;
+  //   }
 
-    variables.push({
-      path: `/docs/${path.basename(toc)}/`,
-      name: path.basename(toc).replace(/ /g, "_"),
-      js
-    });
-  });
+  //   variables.push({
+  //     path: `/docs/${path.basename(toc)}/`,
+  //     name: path.basename(toc).replace(/ /g, "_"),
+  //     js,
+  //   });
+  // });
 
-  const wikiTocs = readTocs(wikisRoot);
-  wikiTocs.forEach(item => {
-    const wikisJs = mapTocToSidebar(wikisRoot);
-    if (wikisJs.length) {
-      variables.push({
-        path: `/wikis/${path.basename(item)}/`,
-        name: path.basename(item).replace(/ /g, "_"),
-        wikisJs
-      });
-    }
-  });
+  variables = sideWiki();
 
-  fs.writeFileSync(sidebarPath, ejs.render(template, { variables }));
+  // sideWiki();
+
+  fs.writeFileSync(sidebarPath, ejs.render(template1, { variables }));
 }
 
 /**
@@ -68,13 +74,41 @@ function main() {
 function readTocs(root) {
   const result = [];
   const files = fs.readdirSync(root);
-  files.forEach(name => {
+  files.forEach((name) => {
     const file = path.resolve(root, name);
     if (fs.statSync(file).isDirectory()) {
       result.push(file);
     }
   });
   return result;
+}
+
+function dirSidebar(rootPath, subPath = "") {
+  const _root = dirTree(path.join(rootPath, subPath), { extensions: /\.md/ });
+  let sidebar = [];
+
+  if (_root && typeof _root === "object") {
+    const rootChildren = _root.children;
+    let _path = "";
+    function makeSidebar(parent, children) {
+      children.forEach((child) => {
+        const name = path.parse(child.name).name;
+        // console.log(name);
+        if (name === "README") {
+          sidebar.push(parent ? path.join(parent, "/") : parent);
+        } else if (child.type === "file") {
+          sidebar.push(path.join(parent, name));
+        } else if (child.type === "directory") {
+          _path = path.join(parent, child.name);
+          makeSidebar(_path, child.children);
+        }
+      });
+    }
+
+    makeSidebar(subPath, rootChildren);
+  }
+
+  return sidebar;
 }
 
 /**
@@ -87,7 +121,7 @@ function mapTocToSidebar(root, prefix) {
   let sidebar = [];
 
   const files = fs.readdirSync(root);
-  files.forEach(filename => {
+  files.forEach((filename) => {
     const file = path.resolve(root, filename);
     const stat = fs.statSync(file);
     let [order, title, type] = filename.split(".");
@@ -107,7 +141,7 @@ function mapTocToSidebar(root, prefix) {
       sidebar[order] = {
         title,
         collapsable: false,
-        children: mapTocToSidebar(file, prefix + filename + "/")
+        children: mapTocToSidebar(file, prefix + filename + "/"),
       };
     } else {
       if (type !== "md") {
@@ -118,6 +152,70 @@ function mapTocToSidebar(root, prefix) {
     }
   });
 
-  sidebar = sidebar.filter(item => item !== null && item !== undefined);
+  sidebar = sidebar.filter((item) => item !== null && item !== undefined);
   return sidebar;
 }
+
+function sideWiki() {
+  /*
+    1. 处理根目录
+    2. 一级目录
+    3. 文件路径拼接
+    
+  */
+
+  const rootDir = dirTree(wikisRoot, { extensions: /\.md/ });
+
+  const tocs = rootDir.children;
+  let variables = [];
+
+  let item = new createToc("Wiki", false, []);
+
+  tocs.forEach((toc) => {
+    if (toc.type === "file") {
+      variables.push(item);
+    } else if ((toc.type === "directory") & (toc.children.length > 0)) {
+      item = new createToc(toc.name, false, []);
+      if ((toc.children.length > 0) & (toc.name != "media")) {
+        item.children = dirToc(toc.path, item.name);
+      }
+      variables.push(item);
+    }
+  });
+
+  return variables;
+}
+
+function dirToc(itemTree = "") {
+  let curentDir = dirTree(itemTree);
+  let fileArr = [];
+  curentDir.children.map((item) => {
+    if (item.type === "file") {
+      fileArr.push(curentDir.name + "/" + item.name);
+    }
+  });
+  console.info(fileArr);
+  return fileArr;
+}
+
+function createToc(title = "", collapsable = false, children = []) {
+  this.title = title;
+  this.collapsable = collapsable;
+  this.children = children;
+}
+
+/**
+ * 读取指定路径下所有目录，作为sidebar一级
+ *
+ * @returns
+ */
+function readDir(rootPath) {
+  const rootDirs = dirTree(rootPath, {
+    extensions: /\/media/,
+  }).children.filter(
+    (dir) => (dir.name != "README") & (dir.children.length > 0)
+  );
+
+  return rootDirs;
+}
+
