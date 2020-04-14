@@ -22,7 +22,7 @@ module.exports = {
     },
     {
       text: "Blog",
-      link: ""
+      link: "/building/"
     },
     {
       text: "Wiki",
