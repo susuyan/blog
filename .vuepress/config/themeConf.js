@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       text: "Wiki",
-      link: "/wikis/"
+      link: "https://www.notion.so/Wiki-98693a0e4ca94d6e87c0700e4a444664"
     },
     {
       text: "Likes",
